@@ -11,6 +11,6 @@ public class TesteController {
 
     @GetMapping
     public ResponseEntity<String> testeApp() {
-        return ResponseEntity.ok("Teste de aplicação sem banco de dados funcionando!");
+        return ResponseEntity.ok("Teste de aplicação sem banco de dados funcionando! Alterado");
     }
 }
